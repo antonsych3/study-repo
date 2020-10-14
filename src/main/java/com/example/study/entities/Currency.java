@@ -1,7 +1,6 @@
 package com.example.study.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.google.gson.annotations.SerializedName;
 
 public class Currency {
 
