@@ -14,10 +14,6 @@
 	<name>study</name>
 	<description>Rest API</description>
 
-	<properties>
-		<java.version>11</java.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -67,14 +63,14 @@
 		</dependency>
 
 		<dependency>
-		<groupId>io.springfox</groupId>
-		<artifactId>springfox-swagger-ui</artifactId>
-		<version>2.9.2</version>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
 		</dependency>
 		<dependency>
-		<groupId>io.springfox</groupId>
-		<artifactId>springfox-swagger2</artifactId>
-		<version>2.9.2</version>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
 		</dependency>
 
 		<dependency>
@@ -90,7 +86,45 @@
 			<type>pom</type>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jms</artifactId>
+			<version>5.2.9.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>5.2.9.RELEASE</version>
+		</dependency>
+		<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-data-jpa</artifactId>-->
+<!--		</dependency>-->
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc10</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.oracle.database.messaging</groupId>
+			<artifactId>aqapi</artifactId>
+			<version>19.3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.oracle.ojdbc</groupId>
+			<artifactId>orai18n</artifactId>
+			<version>19.3.0.0</version>
+		</dependency>
+
 	</dependencies>
+
+	<properties>
+		<java.version>11</java.version>
+	</properties>
 
 	<build>
 		<plugins>
@@ -116,7 +150,7 @@
 						<wsdlUrl>http://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL</wsdlUrl>
 					</wsdlUrls>
 					<keep>true</keep>
-					<packageName>com.example.study.soap</packageName>
+					<packageName>com.example.rest_soap_rabbit.soap</packageName>
 					<sourceDestDir>src/main/java</sourceDestDir>
 				</configuration>
 			</plugin>
