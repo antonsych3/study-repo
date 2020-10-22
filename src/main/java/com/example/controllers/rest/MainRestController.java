@@ -1,7 +1,7 @@
-package com.example.study.controllers;
+package com.example.controllers.rest;
 
-import com.example.study.entities.Currency;
-import com.example.study.retrofit2.CallbackService;
+import com.example.rest_soap_rabbit.entities.Currency;
+import com.example.rest_soap_rabbit.retrofit2.CallbackService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

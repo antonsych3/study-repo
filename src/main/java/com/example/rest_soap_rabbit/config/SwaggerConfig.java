@@ -1,4 +1,4 @@
-package com.example.study.config;
+package com.example.rest_soap_rabbit.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

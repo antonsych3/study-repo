@@ -1,5 +1,5 @@
 
-package com.example.study.soap;
+package com.example.rest_soap_rabbit.soap;
 
 import javax.xml.bind.annotation.XmlRegistry;
 

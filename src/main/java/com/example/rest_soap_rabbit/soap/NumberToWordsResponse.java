@@ -1,5 +1,5 @@
 
-package com.example.study.soap;
+package com.example.rest_soap_rabbit.soap;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="NumberToDollarsResult" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
+ *         &lt;element name="NumberToWordsResult" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -29,36 +29,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "numberToDollarsResult"
+    "numberToWordsResult"
 })
-@XmlRootElement(name = "NumberToDollarsResponse")
-public class NumberToDollarsResponse {
+@XmlRootElement(name = "NumberToWordsResponse")
+public class NumberToWordsResponse {
 
-    @XmlElement(name = "NumberToDollarsResult", required = true)
-    protected String numberToDollarsResult;
+    @XmlElement(name = "NumberToWordsResult", required = true)
+    protected String numberToWordsResult;
 
     /**
-     * Gets the value of the numberToDollarsResult property.
+     * Gets the value of the numberToWordsResult property.
      * 
      * @return
      *     possible object is
      *     {@link String }
      *     
      */
-    public String getNumberToDollarsResult() {
-        return numberToDollarsResult;
+    public String getNumberToWordsResult() {
+        return numberToWordsResult;
     }
 
     /**
-     * Sets the value of the numberToDollarsResult property.
+     * Sets the value of the numberToWordsResult property.
      * 
      * @param value
      *     allowed object is
      *     {@link String }
      *     
      */
-    public void setNumberToDollarsResult(String value) {
-        this.numberToDollarsResult = value;
+    public void setNumberToWordsResult(String value) {
+        this.numberToWordsResult = value;
     }
 
 }

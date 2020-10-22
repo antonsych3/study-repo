@@ -1,4 +1,4 @@
-package com.example.study.entities;
+package com.example.rest_soap_rabbit.entities;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

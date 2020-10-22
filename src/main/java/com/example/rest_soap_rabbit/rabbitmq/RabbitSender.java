@@ -1,9 +1,8 @@
-package com.example.study.rabbitmq;
+package com.example.rest_soap_rabbit.rabbitmq;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-import org.springframework.context.annotation.Configuration;
 
 import java.nio.charset.StandardCharsets;
 

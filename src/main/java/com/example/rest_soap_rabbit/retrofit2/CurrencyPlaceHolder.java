@@ -1,6 +1,6 @@
-package com.example.study.retrofit2;
+package com.example.rest_soap_rabbit.retrofit2;
 
-import com.example.study.entities.Currency;
+import com.example.rest_soap_rabbit.entities.Currency;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
