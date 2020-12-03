@@ -16,7 +16,7 @@ import javax.sql.DataSource;
 @EnableJms
 public class JmsConfiguration {
 
-    @Value("${oracle.advanced.queue}")
+    @Value("${oracle.advanced.queue.name}")
     private String queueName;
 
     @Autowired
