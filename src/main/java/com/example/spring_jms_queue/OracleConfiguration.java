@@ -23,7 +23,7 @@ public class OracleConfiguration {
     private String url;
     @Value("${oracle.advanced.queue.table}")
     private String queueTableName;
-    @Value("${oracle.advanced.queue}")
+    @Value("${oracle.advanced.queue.name}")
     private String queueName;
 
     @Bean
